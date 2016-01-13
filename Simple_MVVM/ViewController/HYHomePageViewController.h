@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  HYHomePageViewController.h
 //  Simple_MVVM
 //
 //  Created by hyyy on 16/1/13.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface HYHomePageViewController : UIViewController
 
 @end
-

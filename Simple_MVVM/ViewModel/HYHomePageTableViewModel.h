@@ -2,6 +2,8 @@
 //  HYHomePageViewModel.h
 //  Simple_MVVM
 //
+//  包含view中变化的元素
+//
 //  Created by hyyy on 16/1/13.
 //  Copyright © 2016年 hyyy. All rights reserved.
 //

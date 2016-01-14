@@ -17,7 +17,7 @@
     vm.avatarURL = recipe.recipeAlbum;
     vm.title = recipe.recipeTitle;
     vm.desc = recipe.recipeDesc;
-    vm.titleColor = [UIColor blueColor];
+    vm.titleColor = [UIColor redColor];
     return vm;
 }
 @end

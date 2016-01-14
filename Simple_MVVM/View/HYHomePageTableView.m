@@ -61,6 +61,10 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     [self.delegate homePageTableView:self didSelectedRowAtIndexPath:indexPath];
 }
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 90.0f;
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
